@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/parallax.css" />
+    <title>R2CODES</title>
+  </head>
+  <body class="mobile">
+    <nav>
+      <div class="container nav-wrapper">
+        <div class="brand">
+          <img
+            class="logo-r2"
+            src="./assets/images/logoImg.jpg"
+            alt="logo image"
+          />
+          <span
+            ><strong
+              >R2CODES <br />
+              WEB-SERVICES</strong
+            ></span
+          >
+        </div>
+        <div class="humburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-list">
+          <li class="active"><a href="#l01">HOME</a></li>
+          <li><a href="#l02">ABOUT</a></li>
+          <li>
+            <a href="#l03">SERVICES</a>
+            <ul class="dropdown-list">
+              <li><a href="#">Web development</a></li>
+              <li><a href="#">Web designing</a></li>
+              <li><a href="#">Copy writing</a></li>
+              <li><a href="#">Content writing</a></li>
+              <li><a href="#">Data entry</a></li>
+              <li><a href="#">Digital marketing</a></li>
+              <li><a href="#">Logo desinging</a></li>
+            </ul>
+          </li>
+          <li><a href="#l04">HIGHLIGHTS</a></li>
+          <li><a href="#l05">CONTACTS</a></li>
+          <li><button class="btn">LOGIN</button></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- //parallax -->
+
+    <section>
+      <div class="myContainer">
+        <form action="/form_submit.php" method="post">
+          <h2>Registration Form</h2>
+          <input type="text" name="name" placeholder="Name" /><br />
+          <input type="email" name="email" placeholder="Email ID" /><br />
+          <input type="number" name="phone" placeholder="Phone No" /><br />
+          <input type="number" name="age" placeholder="Age" />
+          <button type="submit" name="signup">SUBMIT</button>
+        </form>
+      </div>
+      <img src="./assets/images/bg.jpg" id="bg" />
+      <img src="./assets/images/moon.png" id="moon" />
+      <img src="./assets/images/mountain.png" id="mountain" alt="" />
+      <img src="./assets/images/road.png" id="road" />
+      <h2 id="text">R2CODES</h2>
+    </section>
+
+    <div class="myDiv"></div>
+
+    <script src="./assets/parallax.js"></script>
+  </body>
+</html>
